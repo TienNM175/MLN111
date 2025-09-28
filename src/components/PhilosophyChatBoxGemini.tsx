@@ -13,7 +13,7 @@ const PhilosophyChatBoxGemini = () => {
   >([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [isOpen, setIsOpen] = useState(true); // 🔹 trạng thái mở/đóng
+  const [isOpen, setIsOpen] = useState(false); // 🔹 trạng thái mở/đóng
 
   const handleSend = async (customInput?: string) => {
     const question = customInput || input;
