@@ -78,7 +78,7 @@ const PhilosophyChatBoxGemini = () => {
     <div className="fixed bottom-5 right-5 w-96 bg-white shadow-2xl rounded-2xl border flex flex-col overflow-hidden">
       {/* Header */}
       <div className="bg-gradient-to-r from-green-600 to-green-500 text-white p-3 font-semibold flex items-center justify-between">
-        <span>🤖 Chat Triết học (Gemini)</span>
+        <span>🤖 Chat Triết học</span>
         <button
           onClick={() => setIsOpen(false)}
           className="text-white text-sm bg-red-500px-2 py-1 rounded"
