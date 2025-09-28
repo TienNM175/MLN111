@@ -31,7 +31,7 @@ const TimelineSection: React.FC = () => {
               <div className="text-sm text-gray-600">Triết gia</div>
             </div>
             <div className="bg-white p-4 rounded-xl shadow-md">
-              <div className="text-2xl font-bold text-orange-600">2024</div>
+              <div className="text-2xl font-bold text-orange-600">2025</div>
               <div className="text-sm text-gray-600">Hiện tại</div>
             </div>
           </div>
