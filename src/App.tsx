@@ -5,13 +5,12 @@ import TimelineSection from "./components/TimelineSection";
 import QuizSection from "./components/QuizSection";
 import Footer from "./components/Footer";
 import EraDetail from "./pages/EraDetail"; 
-import ScrollToTop from './components/ScrollToTop'; 
 import PhilosophyChatBoxGemini from "./components/PhilosophyChatBoxGemini";
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />  
+      
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <Header />
 

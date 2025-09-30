@@ -16,6 +16,7 @@ function EraDetail() {
     <div className="p-10 grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
       {/* Cột chữ */}
       <div className="md:col-span-2">
+        {/* Tên và mô tả thời kỳ */}
         <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
           {era.name}
         </h1>
@@ -101,6 +102,187 @@ function EraDetail() {
             </div>
           ))}
         </div>
+
+        {/* Section 3 triết gia Hy Lạp */}
+        {era.id === "ancient" && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              🏛️ Ba triết gia Hy Lạp vĩ đại
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              {/* Socrates */}
+              <div>
+                <img
+                  src="/images/Scorates.png"
+                  alt="Socrates"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">Socrates</p>
+              </div>
+
+              {/* Plato */}
+              <div>
+                <img
+                  src="/images/Plato.jpg"
+                  alt="Plato"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">Plato</p>
+              </div>
+
+              {/* Aristotle */}
+              <div>
+                <img
+                  src="/images/Aristotle.jpg"
+                  alt="Aristotle"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">Aristotle</p>
+              </div>
+            </div>
+          </div>
+        )}
+
+                {/* Section 3 triết gia Trung Cổ */}
+        {era.id === "medieval" && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              ✝️ Ba triết gia Trung Cổ tiêu biểu
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              {/* Augustine of Hippo */}
+              <div>
+                <img
+                  src="/images/Augustine of Hippo.jpg"
+                  alt="Augustine of Hippo"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Augustine of Hippo
+                </p>
+              </div>
+
+              {/* Thomas Aquinas */}
+              <div>
+                <img
+                  src="/images/Thomas Aquinas.jpg"
+                  alt="Thomas Aquinas"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Thomas Aquinas
+                </p>
+              </div>
+
+              {/* Avicenna (Ibn Sina) */}
+              <div>
+                <img
+                  src="/images/Avicenna (Ibn Sina).jpg"
+                  alt="Avicenna (Ibn Sina)"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Avicenna (Ibn Sina)
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+                {/* Section 3 triết gia Hiện Đại */}
+        {era.id === "modern" && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              📚 Ba triết gia Hiện Đại tiêu biểu
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              {/* René Descartes */}
+              <div>
+                <img
+                  src="/images/René Descartes.jpg"
+                  alt="René Descartes"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  René Descartes
+                </p>
+              </div>
+
+              {/* John Locke */}
+              <div>
+                <img
+                  src="/images/John Locke.jpg"
+                  alt="John Locke"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  John Locke
+                </p>
+              </div>
+
+              {/* Immanuel Kant */}
+              <div>
+                <img
+                  src="/images/Immanuel Kant.jpg"
+                  alt="Immanuel Kant"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Immanuel Kant
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+                {/* Section 3 triết gia Đương Đại */}
+        {era.id === "contemporary" && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              🌍 Ba triết gia Đương Đại tiêu biểu
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              {/* Jean-Paul Sartre */}
+              <div>
+                <img
+                  src="/images/Jean-Paul Sartre.jpg"
+                  alt="Jean-Paul Sartre"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Jean-Paul Sartre
+                </p>
+              </div>
+
+              {/* Michel Foucault */}
+              <div>
+                <img
+                  src="/images/Michel Foucault.jpg"
+                  alt="Michel Foucault"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Michel Foucault
+                </p>
+              </div>
+
+              {/* Simone de Beauvoir */}
+              <div>
+                <img
+                  src="/images/Simone de Beauvoir.jpg"
+                  alt="Simone de Beauvoir"
+                  className="w-full h-64 object-contain rounded-xl shadow-lg border mb-3"
+                />
+                <p className="text-lg font-semibold text-gray-800">
+                  Simone de Beauvoir
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+
+
       </div>
 
       {/* Cột ảnh */}
