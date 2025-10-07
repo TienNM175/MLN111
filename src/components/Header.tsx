@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex space-x-8">
             <a href="#timeline" className="text-gray-700 hover:text-blue-600 transition-colors">Timeline</a>
             <a href="#quiz" className="text-gray-700 hover:text-blue-600 transition-colors">Quiz</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">Về chúng tôi</a>
+            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">Thành Viên Nhóm</a>
           </nav>
         </div>
       </div>
